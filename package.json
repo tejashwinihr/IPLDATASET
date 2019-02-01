@@ -1,0 +1,26 @@
+{
+  "name": "seqexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ejs",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.3.1",
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
